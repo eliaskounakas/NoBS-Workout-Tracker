@@ -1,4 +1,7 @@
-fastapi
+fastapi[all]
 sqlalchemy
 psycopg2-binary
 python-decouple
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
